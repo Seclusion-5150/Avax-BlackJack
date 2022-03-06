@@ -1,0 +1,164 @@
+
+.deck
+{
+	display: flex;
+	flex-direction: columns;
+	
+	align-items: center;
+	margin: 0 auto;
+}
+.hand
+{
+	
+	display: flex;
+	flex-direction: columns;
+	column-gap: 5px;
+	align-items: center;	
+	margin: 0 auto;
+}
+.card
+{
+	width: 60px;
+	height: 100px;
+	box-shadow: 5px 5px 5px 0px black;
+	
+}
+.wrapper
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+		
+}
+.shadow
+{
+	box-shadow: 10px 10px 10px 0px black;
+	border: 6px solid #FFFF;
+}
+}
+html
+{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#game-message
+{
+	display: flex;
+	color: white;
+	align-items: center;
+	text-align: center;
+}
+#menu-item-one
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	height: 20px;
+	width: 130px;
+	background: silver;
+	
+	text-decoration: none;
+	
+}
+
+#welcome-text
+{
+	
+	background: #3465a4;
+	max-width: 50%;
+	width: 100%;
+	height: 75px;
+	color: white;
+	align-items: center;
+	
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#game-area
+{
+	
+	display: flex;
+	
+	width: 90%;
+	height: 500px;
+	
+	justify-content: center;
+	margin: 10px auto;
+	background: green;
+	vertical-align: middle;
+}
+#play
+{
+	display: flex;
+	align-items: center;
+	
+	
+	width: 30%;
+	height: 50px;
+	color: white;
+	background: #3465a4;
+	margin: auto;
+	justify-content: center;
+	
+}
+
+#connect-button
+{
+	display: flex;
+	flex-direction: columns;
+	background: silver;
+	color: black;
+	align-items: center;
+	height: 33px;
+	border: none;
+	
+}
+#top-page
+{
+	display: flex;
+	flex-direction: columns;
+	background: silver;
+	margin: auto;
+	width: 100%;
+	height: 33px;
+	justify-content: space-between;	
+}
+#about
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	background: silver;
+	max-height: 100%;
+	justify-content: center;
+	border: none;
+	
+}
+#hit
+{
+	border-radius: 60%;
+	height: 50px;
+	width: 50px;
+	background: url('./res/misc/chip.png');
+	background-size: 170%;
+	background-position: center;
+	box-shadow: 5px 5px 5px 0px black;
+}
+#error
+{
+	position: absolute;
+	bottom: 5px;
+	color: red;
+}
+body
+{
+	background: #a5a4ce;
+	margin: 0;
+	padding: 0;
+}
+

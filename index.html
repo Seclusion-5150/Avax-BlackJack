@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+	<script text="text/javascript" src="./node.js">
+	</script>
+	<script text="text/javascript" src="./tree.js">
+	</script>
+	<script text="text/javascript" src="./player.js">
+	</script>
+	<script text="tex/javascript" src="./dealer.js">
+	</script>
+	<script text="text/javascript" src="./index.js">		
+	</script>
+	<head>
+		
+		<link type="text/css" rel="stylesheet" href="./index.css">
+		<div class="wrapper">
+			<div id="top-page">		
+				<div   onClick ="onMenuSelect();" id="about">
+					<button id="about"><h3>Avax BlackJack</h3></button>
+				</div>
+				
+				<div>
+					<button id="connect-button" type="button" onClick="onButtonClick();"><h3>Connect Wallet</h3></button>
+			    	</div>
+			    	
+			</div>
+			
+		</div> 	
+		<div onClick="displayInfo()" onmouseout="onDeselect();" id="dropdown">
+				
+		</div>
+	    	
+	</head>
+	<br>
+	<body>
+	
+	    <div class="wrapper">
+		   
+		    <h4 class="shadow" id="welcome-text">  Welcome to Avax BlackJack! </h4>
+		   
+		    <div class="shadow" class="cell" id="game-area">
+		    	<h3 id='game-message'>Connect Wallet Before You can Continue</h3>
+		    </div> 
+		    <br>
+		    <button class="shadow" id="play" onClick="onClickPlay();">
+		    	Play
+		    </button>
+	   </div>
+	   
+	    <p id="error">Nothing Happening</p>
+	    
+	</body>
+</html>
